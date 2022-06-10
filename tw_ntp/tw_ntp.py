@@ -34,6 +34,6 @@ def tw_ntp(host='clock.stdtime.gov.tw', must=False):
 example:
 tw_ntp()              # 使用預設值
 tw_ntp(must=True)     # 非對到時不可
-tw_ntp(must=1)             # 同上
+tw_ntp(must=1)        # 同上
 tw_ntp('tick.stdtime.gov.tw', 1) # 指定server，並強制對時
 """
