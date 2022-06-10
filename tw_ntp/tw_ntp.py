@@ -1,3 +1,7 @@
+# name: tw_ntp.py
+# version: 0.1.0
+# author: paoyung.chang@gmail.com
+
 import network
 import time
 import ntptime
