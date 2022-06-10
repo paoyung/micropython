@@ -2,20 +2,9 @@
 # version: 0.1.0
 # author: paoyung.chang@gmail.com
 
-import network
 import time
 import ntptime
 
-sta_if = network.WLAN(network.STA_IF)
-sta_if.active(True)
-
-def connectWifi():
-  global sta_if
-  sta_if.connect('RmvP', 'PatriciaTang')
-
-
-import time
-import ntptime
 def tw_ntp(host='clock.stdtime.gov.tw', must=False):
   """
   host: 台灣可用的 ntp server 如下可任選，未指定預設為 clock.stdtime.gov.tw
